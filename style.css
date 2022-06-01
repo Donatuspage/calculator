@@ -1,0 +1,25 @@
+
+button{
+    background-color: rgb(7, 58, 34);
+    color: white;
+    width: 85px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: large;    
+}
+.one{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.two{
+    padding-top: 5px;
+    margin-top: 15px;
+    
+
+
+    
+}

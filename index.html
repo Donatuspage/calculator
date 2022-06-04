@@ -8,21 +8,28 @@
     <title>Document</title>
 </head>
 <body>
-    <button class="one">
-    <span id="num1-el"></span>
-    <span id="num2-el"></span>
-    </button>
-    <br>
-    
-    <button onclick="add()">Add</button>
-    <button onclick="subtract()">Subtract</button>
-    <button onclick ="multiply()">Multiply</button>
-    <button onclick = "divide()">Divide</button>
-    
-    <br>
-    <button class="two">
-    <span id="sum-el">Sum:</span>
-    </button>
+    <div class="container">
+        <button class="one">
+            <span id="num1-el"></span>
+            <span id="num2-el"></span>
+            </button>
+            <br>
+            <div class="functionalbtn">
+                <button onclick="add()">+</button>
+                <button onclick="subtract()">-</button>
+                <button onclick ="multiply()">x</button>
+                <button onclick = "divide()">/</button>
+
+            </div>
+            
+            
+            <br>
+            <button class="two">
+            <span id="sum-el">=</span>
+        </button>
+
+    </div>
+   
     
 
     <script src="index.js"></script>
